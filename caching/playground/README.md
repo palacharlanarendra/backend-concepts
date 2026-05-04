@@ -29,3 +29,10 @@ Demonstrates the difference between "Write-Through" caching (updating the cache 
 ```bash
 node invalidation.js
 ```
+
+### 4. Real-World Redis Example (`redis-example.js`)
+Demonstrates actual interactions with a Redis server using the `ioredis` library, including setting data, retrieving data, Cache-Aside pattern, and Time-To-Live (TTL) expiration.
+*(Requires a local Redis server running on port 6379 and `npm install ioredis`)*
+```bash
+node redis-example.js
+```
